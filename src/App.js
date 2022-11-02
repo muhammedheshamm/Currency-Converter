@@ -61,7 +61,7 @@ function App() {
   }
   return (
     <div className="container">
-      <h1>Currency Converter</h1>
+      <h1>Currency <br/> Converter</h1>
       <Row options={options} selected={from} 
       handleChange={e=>setFrom(e.target.value)}
       amount={fromAmount}
